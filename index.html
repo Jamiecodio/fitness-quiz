@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Knowledge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <!-- TITLE CONTAINER -->
+    <div class="title-container">
+      <img src="logo.png" class="title-logo" alt="cardio fitness">
+      <div class="title">Fitness Knowledge</div>
+    </div>
+
+    <!-- QUIZ CONTAINER -->
+    <section id="q1" class="question q1">
+      <div class="question__text">How many miles do I prefer to bike in one single ride?</div>
+      <div class="answers">
+        <button id="q1__answer-selection-1" class="answer">
+          <div id="answer1__text" class="answer__text">15</div>
+        </button>
+        <button id="q1__answer-selection-2" class="answer">
+          <div id="answer2__text" class="answer__text">25</div>
+        </button>
+        <button id="q1__answer-selection-3" class="answer">
+          <div id="answer3__text" class="answer__text">20</div>
+        </button>
+        <button id="q1__answer-selection-4" class="answer">
+          <div id="answer4__text" class="answer__text">10</div>
+        </button>
+      </div>
+      <div class="feedback"></div>
+      <button disabled id="q1__next-question" class="next-question">Next</button>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
